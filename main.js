@@ -25,7 +25,7 @@ function handleHeartClick(event) {
         heart.classList.add('activated-heart');
       })
       .catch(function(error) {
-        // Server call failed: display error modal
+        // Server call failed: display error by modal
         errorMessage.innerText = error;
         errorModal.classList.remove('hidden');
         
